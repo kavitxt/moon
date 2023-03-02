@@ -1,0 +1,16 @@
+{
+  "name": "moon-ui",
+  "description": "Discord components remade for Moon",
+  "version": "1.0.0",
+  "author": "kavi",
+  "repository": "github:moon-inj/moon",
+  "type": "module",
+  "main": "src/index.tsx",
+  "module": "src/index.tsx",
+  "devDependencies": {
+    "solid-js": "^1.5.7"
+  },
+  "peerDependencies": {
+    "solid-js": "^1.5.7"
+  }
+}

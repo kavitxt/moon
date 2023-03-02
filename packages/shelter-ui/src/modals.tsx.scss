@@ -1,0 +1,106 @@
+@import "./scrollbars.scss";
+
+$RADIUS: 4px;
+
+.bg {
+  background: rgba(0, 0, 0, 0.85);
+  transition: background 250ms;
+  align-self: stretch;
+}
+
+.mroot {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  display: grid;
+  align-items: center;
+
+  & > * {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+}
+
+.wrap {
+  transition-property: opacity, transform;
+  transition-duration: 250ms;
+  pointer-events: none;
+
+  &:not(.active) {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  & > * {
+    pointer-events: initial;
+  }
+}
+
+.modal {
+  background: var(--modal-background);
+  border-radius: $RADIUS;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-flow: column nowrap;
+  color: var(--text-normal); // quite useful in modal body and modal footer :)
+}
+
+.sm {
+  width: 440px;
+  min-height: 200px;
+  max-height: 720px;
+}
+
+.md {
+  width: 600px;
+  min-height: 400px;
+  max-height: 800px;
+}
+
+.body {
+  flex: 1 1 auto;
+  overflow: hidden auto;
+  position: relative;
+  padding: 0 8px 20px 16px;
+
+  @include nice-scrollbars;
+}
+
+.head,
+.foot {
+  flex: 0 0 auto;
+  padding: 16px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.foot {
+  background: var(--modal-footer-background);
+  border-radius: 0 0 $RADIUS $RADIUS;
+}
+
+.confirm {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+.cbtn {
+  height: 26px;
+  padding: 2px;
+  cursor: pointer;
+  opacity: 0.5;
+  color: var(--interactive-normal);
+  background: transparent;
+  border: none;
+  margin: 0;
+
+  &:hover {
+    opacity: 1;
+    color: var(--interactive-hover);
+  }
+}

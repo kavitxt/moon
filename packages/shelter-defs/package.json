@@ -1,0 +1,20 @@
+{
+  "name": "@moon-inj/moon-defs",
+  "version": "1.0.2",
+  "author": "moonteam (kavi)",
+  "license": "CC-0-1.0",
+  "repository": "github:moon-inj/moon",
+  "types": "./dist/moon-defs/rootdefs.d.ts",
+  "scripts": {
+    "prepare": "rm -rf dist && tsc"
+  },
+  "devDependencies": {
+    "moon": "workspace:^",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "idb": "^7.1.0",
+    "solid-js": "^1.5.7",
+    "spitroast": "^1.4.2"
+  }
+}

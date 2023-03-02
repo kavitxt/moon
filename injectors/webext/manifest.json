@@ -1,0 +1,30 @@
+{
+  "name": "moon-inj",
+  "version": "1.1",
+  "homepage_url": "https://github.com/moon-inj/moon",
+  "description": "Injects moon on discord.com/app",
+
+  "manifest_version": 2,
+  "permissions": [
+    "activeTab",
+    "storage",
+    "webRequest",
+    "webRequestBlocking",
+    "https://discord.com/*",
+    "https://raw.githubusercontent.com/*"
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://discord.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ],
+
+  "icons": {}
+}

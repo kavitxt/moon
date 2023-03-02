@@ -1,0 +1,23 @@
+{
+  "name": "moon",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node esbuild.mjs"
+  },
+  "dependencies": {
+    "@cumjar/websmack": "^1.2.0",
+    "idb": "^7.1.0",
+    "moon-assets": "workspace:*",
+    "moon-ui": "workspace:*",
+    "solid-js": "^1.5.7",
+    "spitroast": "^1.4.2"
+  },
+  "devDependencies": {
+    "esbuild": "^0.15.10",
+    "esbuild-plugin-solid": "^0.4.2",
+    "esbuild-sass-plugin-ysink": "^2.3.3",
+    "postcss": "^8.4.17",
+    "postcss-modules": "^5.0.0"
+  }
+}
