@@ -1,25 +1,22 @@
 ![moon](https://github.com/moon-inj/moon/raw/main/packages/moon-assets/banner/banner.png)
 
-_an attempt to prepare for the worst_
+_ Your favourite breach of Discord's ToS! _
 
 [![wakatime](https://wakatime.com/badge/github/moon-inj/moon.svg)](https://wakatime.com/badge/github/moon-inj/moon)
 
 ## What is moon?
 
-moon is a new generation client mod built to be essentially bulletproof.
+moon is a 'new-gen" Discord client mod, built to be essentially 'unpatchable'.
 
 Its development was sparked by the death of many client mods and the blow
 to all others that was Discord's switch to SWC.
 
-You can read much more about this event [here](https://cumcord.com/an-exercise-in-futility).
+You can read much more about this event with Cumcord's team [here](https://cumcord.com/an-exercise-in-futility).
 
-It is developed by ex-members of the old Cumcord Team, under moon-inj.network.
 
 ## What plugins has it got?
 
-Its early days at the moment, but there are a couple.
-
-Check the githubs of moon-inj members or search for `moon-plugins`.
+Ha! you're funny.
 
 ## How do I install it?
 
@@ -34,7 +31,7 @@ Check the githubs of moon-inj members or search for `moon-plugins`.
 
 ### Firefox
 
-https://addons.mozilla.org/en-GB/firefox/addon/moon-injector/
+coming soon tm
 
 ### Chromium based browser
 
@@ -52,12 +49,5 @@ See [DOCS.md](DOCS.md)
 
 ## Is there a plugin repo / website / build tool / etc.?
 
-Possibly not.
-
-This is a much smaller project right now than Cumcord was at the time of its death.
-
-Please do not expect a huge ecosystem,
-but we do want to have a comfortable dev and user experience.
-
-Keep an eye on the moon-inj gh org or our Discord server
-to see what we _are_ working on, inside and outside of the client modding space. :)
+No.
+This is just a side project. nothing more.
