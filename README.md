@@ -1,6 +1,6 @@
 ![moon](https://github.com/moon-inj/moon/raw/main/packages/moon-assets/banner/banner.png)
 
-_ Your favourite breach of Discord's ToS! _
+_Your favourite breach of Discord's ToS!_
 
 [![wakatime](https://wakatime.com/badge/github/moon-inj/moon.svg)](https://wakatime.com/badge/github/moon-inj/moon)
 
